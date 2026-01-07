@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project Artifacts (Generated)
+submissions/
+experiments/
+*.log
+
+# Documentation (Internal - Should NOT be committed)
+docs/
+docs/prompt.txt
+docs/internal_guides/
+
+# Auto-generated Management Files (LLM/Helper Generated)
+GIT_COMMIT_SUMMARY.md
+GITHUB_DESCRIPTION.md
+GITHUB_PUSH_SUMMARY.md
+README_DESCRIPTION_COPY.md
+SETUP_GITHUB_DESCRIPTION.md
+ARCHITECTURE_COMPARISON.md
+PHASE1_SUMMARY.md
+PHASE1_VALIDATION_RESULTS.md
+PHASE2_ENSEMBLE_PLAN.md
+PROJECT_STATUS_DASHBOARD.md
+
+# Datasets
+# We KEEP the main ML-CUP dataset (TR/TS) for reproducibility
+# But ignore temporary or external datasets if any
+data/monks-*
+data/template-*.csv
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
