@@ -263,12 +263,12 @@ pip install numpy scikit-learn pandas
 
 3. **Document results:**
    - Save results to `experiments/` folder
-   - Update `docs/` with findings
+   - Keep notes in phase READMEs for findings
 
 4. **Version control:**
-   - Commit docs/ updates
+   - Commit documentation updates
    - Don't commit large experiment outputs
-   - Use `.gitignore` for model weights
+   - Use `.gitignore` for sensitive files
 
 ---
 
@@ -282,9 +282,10 @@ pip install numpy scikit-learn pandas
 
 ---
 
-## Questions?
+## Additional Information
 
-See `docs/` for detailed analysis and methodology.
-- `docs/ML_CUP_2025_COMPLETE_ANALYSIS.md` - Full project analysis
-- `docs/PHASE2_COMPLETE_ANALYSIS.md` - Ensemble analysis
-- `docs/SESSION_SUMMARY.md` - Latest session work
+For detailed documentation about each phase and findings:
+
+- See `scripts/phase1/README.md` for Phase 1 validation details
+- See `scripts/phase2/README.md` for Phase 2 ensemble analysis
+- See `scripts/phase3/README.md` for Phase 3 advanced features (on hold)
